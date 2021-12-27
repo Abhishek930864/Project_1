@@ -1,0 +1,231 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.6;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.h1
+.h2
+.h3
+p{
+    margin: 0;
+    padding: 0;
+}
+section{
+    padding: 5rem 0;
+    
+}
+.split{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.split>* {
+    flex-basis: 15%;
+    min-width: 15em;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+   max-width: 65em;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: var(--clr-text, #fff);
+    background-color:var(--clr-accent, blue);
+    font-weight: 700;
+    padding: .5rem 1.25rem;
+    border-radius: .25rem;
+    text-transform: uppercase;
+    transition: 
+      transform 250ms ease-in-out, 
+      opacity 250ms linear;
+}
+.btn:hover,.btn:focus{
+    transform: scale(1.1);
+    opacity: .9;
+}
+.primary-text{
+    font-size: 4rem;
+    font-size: clamp(2rem, calc(4vw + 1.5rem), 4.5rem);
+    line-height: 1;
+    text-transform: uppercase;
+    margin:0;
+}
+.section-title{
+    text-align: center;
+    font-size: clamp(2.5rem, calc(4vw + 1.5rem), 4rem);
+    line-height: 1;
+    
+
+}
+.hero{
+    text-align: center;
+    color: #fff;
+    padding: 15em 0;
+    background-image: url(../Projects/images/img_3.png), radial-gradient(#444, #111);
+    background-blend-mode: multiply;
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+   
+}
+.spacing>*+* {
+    margin-top: 2rem;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 1em;
+}
+.featured{
+    background-color: #eee;
+}
+.featured .feautured__items{
+    transform: scale(.90);
+    transition: 
+      transform 250ms ease-in-out, 
+      opacity 250ms linear;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    
+
+
+}
+.featured .feautured__items:hover,.featured .feautured__items:focus{
+    transform: rotate(350deg);
+    opacity: .9;
+    
+
+}
+.featured .feautured__items:hover .featured__details,.featured .feautured__items:focus .featured__details{
+    opacity: 1;
+
+}
+.feautured_img{
+    display: block;
+    position: relative;
+}
+.featured .feautured__items:after{
+    content: '';
+    position:absolute;
+    top: 10%;
+    left: 10%;
+    padding: 75% 75% 0 0;
+    background-color: #2193b0;
+    border-radius: 50%;
+    z-index: -1;
+}
+.featured .feautured__items span{
+    display: block;
+    font-weight: 700;
+    font-size: 2em;
+    
+}
+.featured .feautured__items p{
+    opacity: 0;
+}
+.s1{
+    margin-top: .5em;
+}
+.our-product{
+   
+    text-align: center;
+   
+
+
+}
+.product{
+    background: radial-gradient(var(--clr-inr, green), var(--clr-out, red));
+    padding: 2em;
+    margin-bottom: 5em;
+    border-radius: 1em;
+    text-align: center;
+
+}
+@media (min-width:50em) {
+    
+    
+    .shoe_1 img{
+        float: right;
+        text-align: left;
+        width: 51%;
+        shape-outside: url(images/img_1.png);
+        shape-margin: 1em;
+       
+
+    }
+    .shoe_2 img{
+        float: right;
+        text-align: left;
+        width: 51%;
+        shape-outside: url(images/img_2.png);
+        shape-margin: 1em;
+               
+
+    }
+
+    .shoe_2 a{
+        justify-content: left ;
+    }
+    .shoe_3 img{
+        float: right;
+        text-align: left;
+        width: 51%;
+        shape-outside: url(images/img_3.png);
+        shape-margin: 1em;
+       
+
+    }
+    .product{
+        text-align: left;
+    }
+}
+.product img{
+    margin: -5em 0 0 0;
+   
+}
+.product__title{
+    font-size: clamp(2.5rem, calc(4vw + 1.5rem), 4rem);
+    line-height: 1.1;
+    color: #ffffff;
+
+}
+.mb5{
+    margin-bottom: 5rem;
+}
+.hero{
+    --clr-accent:#faa700;
+}
+.shoe_1{
+    --clr-inr: red;
+    --clr-out: orange;
+    --clr-accent: limegreen;
+
+}
+.shoe_2{
+    --clr-inr: #fce4b3;
+    --clr-out: #eac886;
+    --clr-accent: #2f4858;
+
+}
+.shoe_3{
+    --clr-inr: #6dd5ed;
+    --clr-out: #2193b0;
+    --clr-accent: #008951;
+
+}
