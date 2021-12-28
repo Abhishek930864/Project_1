@@ -1,7 +1,2 @@
 ## 12 - Travel App
-<img src="https://github.com/Abhishek930864/Project_1/blob/master/images/img_1.png?raw=true">
-<img src="https://github.com/Abhishek930864/Project_1/blob/master/images/img_2.png" > 
-<img src="https://github.com/Abhishek930864/Project_1/blob/master/images/img_3.png" > 
-<img src="https://github.com/Abhishek930864/Project_1/blob/master/images/img_4.png" > 
-<img src="https://github.com/Abhishek930864/Project_1/blob/master/images/img_5.png" > 
-<img src="https://github.com/Abhishek930864/Project_1/blob/master/images/img_6.png" > 
+<img src="https://github.com/Abhishek930864/Project_1/blob/master/Screenshot%202021-12-28%20at%2017-30-11%20Project_1.png">
